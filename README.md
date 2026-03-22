@@ -155,4 +155,5 @@ Auction #40 | Winner: Bidder #013 | WinBid: $17893.21 | Bids: 71 | Duration: 487
 ---
 
 👤 Author
+
 Mohammed Rinshad K P GitHub: @kpmohammedrinshad
