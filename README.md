@@ -29,7 +29,16 @@ auction-simulator/
 ├── simulator.go     # Simulator — orchestrates auctions, timing, and result reporting
 └── go.mod           # Go module definition
 ```
+After running, an auction_outputs/ folder is auto-created:
 
+```
+auction_outputs/
+├── auction_01.txt
+├── auction_02.txt
+├── auction_03.txt
+│    ...
+└── auction_40.txt
+```
 ---
 
 ## Getting Started
@@ -138,6 +147,19 @@ Auction #40 | Winner: Bidder #013 | WinBid: $17893.21 | Bids: 71 | Duration: 487
 [Timing] First auction started → last auction completed: 3001ms
 ```
 
+### Per-auction file — auction_outputs/auction_01.txt
+```
+======================================
+  AUCTION #01 — RESULT
+======================================
+  Auction ID   : 1
+  Winner       : Bidder #044
+  Winning Bid  : $11908.55
+  Total Bids   : 77 / 100 bidders
+  Duration     : 498ms
+======================================
+
+```
 ---
 
 ## Memory Considerations
